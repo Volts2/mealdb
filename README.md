@@ -7,4 +7,4 @@ M. Aziz Baihaqi
 Joshua Jonathan
 00000074760
 
-link Web = CapyMealPlan.site
+link Web = www.CapyMealPlan.site
