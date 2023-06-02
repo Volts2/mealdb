@@ -5,12 +5,20 @@ import Loader from "../../components/Loader/Loader";
 import CategoryList from "../../components/Category/CategoryList";
 import NotFound from "../../components/NotFound/NotFound";
 import MealList from "../../components/Meal/MealList";
+import FoodJoke from '../../components/spooncular/FoodJoke';
+import FoodTrivia from '../../components/spooncular/FoodTrivia';
 
 const HomePage = () => {
   const {categories, meals, categoryLoading, mealsLoading} = useMealContext();
 
   return (
     <main className='main-content'>
+      <div className='Joking'>
+        <FoodJoke/>
+      </div>
+      <div className='Trivia'>
+        <FoodTrivia/>
+      </div>
       { (mealsLoading) ? <Loader /> : (meals === null) ? <NotFound /> : (meals?.length) ? <MealList meals = {meals} /> : "" }
       { (categoryLoading) ? <Loader /> : <CategoryList categories = {categories} /> }
 
