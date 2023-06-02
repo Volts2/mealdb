@@ -129,4 +129,36 @@
     -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
   }
-  
+
+  .Joking {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 200px;
+   background-color: #b8731a;
+   margin: 20px 0;
+   padding: 20px;
+   border-radius: 5px;
+ }
+  .Joking p {
+   font-size: 1.5rem;
+   font-weight: bold;
+   text-align: center;
+ } 
+
+ .trivia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #b8731a;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+ }
+
+ .trivia p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+ }
