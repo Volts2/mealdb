@@ -12,4 +12,5 @@ Joshua Jonathan
 
 link Web = www.CapyMealPlan.site
 
-API Spoonacular dan MealDB
+
+API yang digunakan adalah Spoonacular dan MealDB
