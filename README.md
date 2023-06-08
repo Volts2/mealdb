@@ -11,3 +11,4 @@ Joshua Jonathan
 00000074760
 
 link Web = www.CapyMealPlan.site
+API Spoonacular dan MealDB
